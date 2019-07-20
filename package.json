@@ -1,0 +1,27 @@
+{
+  "name": "farseek",
+  "version": "1.1.0",
+  "description": "A simple command line tool for helping with CDN packages",
+  "preferGlobal": true,
+  "scripts": {
+    "postinstall": "node src/postinstall.js"
+  },
+  "keywords": [
+    "CDN",
+    "Jsdelivr"
+  ],
+  "bin": "src/bin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erwijet/farseek"
+  },
+  "author": "Tyler Holewinski",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^2.1.0",
+    "commander": "^2.20.0",
+    "mongodb": "^3.2.7",
+    "ora": "^3.4.0",
+    "syscmd": "^0.1.1"
+  }
+}
