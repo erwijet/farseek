@@ -18,7 +18,7 @@
   "author": "Tyler Holewinski",
   "license": "MIT",
   "dependencies": {
-    "clipboardy": "^2.1.0",
+    "clipboardy": "^3.0.0",
     "commander": "^2.20.0",
     "mongodb": "^3.2.7",
     "ora": "^3.4.0",
